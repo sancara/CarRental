@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from django.urls import reverse
-from forms import ReviewForm
+from cars.forms import ReviewForm
 
 # Create your views here.
 def thank_you(request):
